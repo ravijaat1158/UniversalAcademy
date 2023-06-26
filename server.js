@@ -12,7 +12,7 @@ const app = express();
 
 dotenv.config();
 
-const port = process.env.PORT || 8080;
+const port = 8080;
 
 connectDb(process.env.DATABASE_URL);
 
